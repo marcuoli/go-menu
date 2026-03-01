@@ -1,0 +1,75 @@
+{
+  "menu": [
+    {
+      "caption": "Main",
+      "icon": "bi bi-house",
+      "children": [
+        { "caption": "Customers", "url": "/customer", "icon": "bi bi-people-fill" },
+        { "caption": "Positions", "url": "/position", "icon": "bi bi-briefcase" },
+        { "caption": "Managers",  "url": "/manager",  "icon": "bi bi-person-badge" },
+        { "caption": "Actors",    "url": "/actor",    "icon": "bi bi-person-workspace" }
+      ]
+    },
+    {
+      "caption": "Projects",
+      "icon": "bi bi-folder",
+      "children": [
+        { "caption": "Reviews", "url": "/review",       "icon": "bi bi-journal-check" },
+        { "caption": "Tasks",   "url": "/task",         "icon": "bi bi-list-task" },
+        { "caption": "HowTo",   "url": "/review/howto", "icon": "bi bi-question-circle" }
+      ]
+    },
+    {
+      "caption": "About",
+      "icon": "bi bi-info-circle",
+      "children": [
+        { "caption": "Components",  "url": "/components",  "icon": "bi bi-grid" },
+        { "caption": "Development", "url": "/development", "icon": "bi bi-code-slash" }
+      ]
+    },
+    {
+      "caption": "Tools",
+      "icon": "bi bi-tools",
+      "children": [
+        { "caption": "Translate",      "url": "/tools/translate", "icon": "bi bi-translate" },
+        { "caption": "Enqueued Tasks", "url": "/task?filter=enqueued", "icon": "bi bi-clock-history" }
+      ]
+    }
+  ],
+  "i18n": {
+    "pt_BR": {
+      "Main": "Principal",
+      "Customers": "Clientes",
+      "Positions": "Cargos",
+      "Managers": "Gestores",
+      "Actors": "Responsáveis",
+      "Projects": "Projetos",
+      "Reviews": "Revisões",
+      "Tasks": "Tarefas",
+      "HowTo": "Passo a Passo",
+      "About": "Sobre",
+      "Components": "Componentes",
+      "Development": "Progresso",
+      "Tools": "Ferramentas",
+      "Translate": "Traduzir",
+      "Enqueued Tasks": "Tarefas Agendadas"
+    },
+    "es_ES": {
+      "Main": "Principal",
+      "Customers": "Clientes",
+      "Positions": "Cargos",
+      "Managers": "Gestores",
+      "Actors": "Responsables",
+      "Projects": "Proyectos",
+      "Reviews": "Revisiones",
+      "Tasks": "Tareas",
+      "HowTo": "Cómo hacerlo",
+      "About": "Acerca de",
+      "Components": "Componentes",
+      "Development": "Desarrollo",
+      "Tools": "Herramientas",
+      "Translate": "Traducir",
+      "Enqueued Tasks": "Tareas en Cola"
+    }
+  }
+}
